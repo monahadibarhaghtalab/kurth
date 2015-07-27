@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+
+{% block main %}
+    {% load staticfiles %}
+      <p id="breadcrumb">شما این جا هستید: <a href="#" title="kurthelectronic.com">کاتالوگ محصولات</a></p>
+      <div id="maincontent" class="clearfix"><!--TYPO3SEARCH_begin--><h2>کاتالوگ محصولات</h2><p><strong></strong>
+</p>
+
+                 {% for product in products %}
+<div class="list-item">
+
+
+                        {% load staticfiles %}
+
+                        <p dir="rtl">
+                        <strong>{{ product.name }}</strong>
+                        <a  href="{{product.file.url}}" style="margin-right: 200px">
+                            <button  class="button_free">دریافت فایل</button >
+                        </a>
+                        </p>
+
+
+
+<br/>
+
+</div>
+          {% endfor %}
+</div>
+{% endblock %}

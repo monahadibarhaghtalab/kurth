@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+
+
+{% block main %}
+    {% load staticfiles %}
+      <p id="breadcrumb">شما این جا هستید: <a href="#" title="kurthelectronic.com">محصولات</a></p>
+      <div id="maincontent" class="clearfix"><!--TYPO3SEARCH_begin--><h2>لیست محصولات</h2><p><strong></strong>
+</p>
+           {% for product in products %}
+<div class="list-item">
+
+					<a href="http://www.kurthelectronic.de/pruef-und-messgeraete/xdsl-tester/ke3600-xdsl-multitester.html">
+
+                        {% load staticfiles %}
+
+
+
+                        <img src= "{{product.image.url}}"   width="87" height="74" border="0" alt="" />
+
+                    </a>
+					<p>
+                        <strong>{{ product.name }}</strong>.<br />{{ product.description }}
+<br/>
+    </p>
+    <p>
+
+        <form id="sendPay" action="/persian_home/check_payment/" method="POST"  style="display: inline-block">{% csrf_token %}
+    <a href="javascript:;" onclick="document.getElementById('sendPay').submit();"  style="font-size: 1.8em;  margin-left: 100px" >خرید</a>
+    <input type="hidden" name="product_id" value={{ product.id }}/>
+</form>
+
+ <form id="explain" action="/persian_home/explain/" method="POST" style="display: inline-block" >{% csrf_token %}
+    <a href="javascript:;" onclick="document.getElementById('explain').submit();" title="information" style="font-size: 1.8em;  margin-left: 200px" > توضیحات</a>
+    <input type="hidden" name="product_id" value={{ product.id }}/>
+    </form>
+
+
+
+</p>
+
+</div>
+          {% endfor %}
+<p></p>
+<p></p>
+<p><strong></strong>
+</p>
+<p><strong><a href="http://www.kurthelectronic.de/" target="_self"></a></strong>
+</p>
+<p> </p><h1></h1><div class="csc-textpic-text"><p> <a href="http://www.kurthelectronic.com/fileadmin/user_upload/downloads/USA/Kurth-Program-2015-16-en.pdf"></a>
+</p>
+<p><a href="http://www.kurthelectronic.com/fileadmin/user_upload/downloads/USA/Kurth-Program-2014-usa.pdf"> </a></p></div><!--TYPO3SEARCH_end--></div>
+    </div>
+    <div id="footer"><p>TESTING &#183; VERIFYING &#183; SAVE EXPENSES<br /><a href="http://www.kurthelectronic.com/">Kurth Electronic Inc.</a>&#160;&#183; P.O. Box 1377 &#183; Sparta, NJ 07871<br /><a href="http://www.kurthelectronic.com/about-kurth-electronic/kurth-electronic.html">Kurth Electronic</a>&#160;-&#160;<a href="http://www.kurthelectronic.com/fileadmin/user_upload/downloads/agb.pdf">Terms and Conditions</a>&#160;-&#160;<a href="http://www.kurthelectronic.com/about-kurth-electronic/privacy.html">Privacy</a></p></div>
+{% endblock %}
+
+
+
+
+</body>
+</html>

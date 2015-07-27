@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+
+{% block main %}
+
+
+             <p id="breadcrumb">شما این جا هستید: <a href="#" title="kurthelectronic.com">چک مشخصات</a></p>
+      <div id="maincontent" class="clearfix"><!--TYPO3SEARCH_begin--><h2>چک قیمت </h2><p><strong></strong>
+</p>
+
+
+         <form  role="form" action="/persian_home/payment/" method="post" dir="rtl"> {% csrf_token %}
+
+<table id="t01" style="font-size: 1.8em">
+
+  <tr>
+    <td>نام محصول</td>
+    <td>{{ product.name }}</td>
+  </tr>
+  <tr>
+    <td>قیمت</td>
+    <td>{{ product.price }}</td>
+  </tr>
+
+      <tr>
+    <td>نام</td>
+    <td>{{ customer.first_name }}</td>
+  </tr>
+
+      <tr>
+    <td>نام خانوادگی</td>
+    <td>{{ customer.last_name }}</td>
+  </tr>
+
+      <tr>
+    <td>شماره همراه</td>
+    <td>{{ customer.cell_phone }}</td>
+
+  </tr>
+
+          <tr>
+    <td>آدرس</td>
+    <td>{{ customer.address }}</td>
+
+  </tr>
+
+          <tr>
+    <td>کدپستی</td>
+    <td>{{ customer.postal_code }}</td>
+
+  </tr>
+          <tr>
+    <td>ایمیل</td>
+    <td>{{ customer.email}}</td>
+
+  </tr>
+
+</table>
+
+
+         <input type="hidden" value="{{ product.id }}" name = "product_id"/>
+             <input type="hidden" value="{{ customer.id }}" name = "customer_id"/>
+    <div class="form-group">
+        <input  value="تایید مشخصات و پرداخت " type="submit" class="button"  />
+        </button>
+    </div>
+    </form>
+
+</div>
+{% endblock %}

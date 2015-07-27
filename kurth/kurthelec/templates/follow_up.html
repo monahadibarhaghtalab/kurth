@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+
+{% block main %}
+
+
+                 <p id="breadcrumb">شما این جا هستید: <a href="#" title="kurthelectronic.com">پیگیری خرید</a></p>
+      <div id="maincontent" class="clearfix"><!--TYPO3SEARCH_begin--><h2>پیگیری خرید</h2><p><strong></strong>
+</p>
+      <form class="form-horizontal" role="form" action="/persian_home/follow_res/" method="post" dir="rtl"> {% csrf_token %}
+
+
+         <label>لطفا کد خرید را وارد نمایید</label>
+                 <input type="text" value="" name="code" style="direction: ltr"/>
+    <div class="form-group">
+        <input  value="تایید" type="submit" class="button"/>
+
+    </div>
+    </form>
+      </div>
+{% endblock %}

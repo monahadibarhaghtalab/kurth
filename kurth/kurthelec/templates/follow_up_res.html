@@ -1,0 +1,31 @@
+
+{% extends "base.html" %}
+
+
+{% block main %}
+
+
+                 <p id="breadcrumb">شما این جا هستید: <a href="#" title="kurthelectronic.com">پیگیری خرید</a></p>
+      <div id="maincontent" class="clearfix"><!--TYPO3SEARCH_begin--><h2>پیگیری خرید</h2><p><strong></strong>
+</p>
+
+      <p><strong>
+    {% ifequal order.state 1 %}
+      در تاریخ
+        {{ order.sent_date }}
+        ارسال شده است.
+    {% endifequal %}
+
+ {% ifequal order.state 2 %}
+سفارش ثبت شده است.
+    {% endifequal %}
+
+ {% ifequal order.state 3 %}
+کالا ناموجود لطفا با شماره های ... تماس حاصل فرمایید.
+    {% endifequal %}
+      </strong>
+<br/>
+          پس از تایید مدیر کالای مورد نظر برای شما ارسال می شود
+      <br/>
+
+{% endblock %}

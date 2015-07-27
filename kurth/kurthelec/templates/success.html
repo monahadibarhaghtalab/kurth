@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+
+{% block main %}
+    {% load staticfiles %}
+      <p id="breadcrumb">شما این جا هستید: <a href="#" title="kurthelectronic.com">پنتیجه پرداخت</a></p>
+      <div id="maincontent" class="clearfix"><!--TYPO3SEARCH_begin--><h2>نتیجه پرداخت</h2><p><strong></strong>
+</p>
+
+      <p><strong>نتیجه پرداخت شما:</strong>
+      {{ order.state }}
+</p>
+ <p>
+      {% ifnotequal code 0 %}
+       <strong>کد پیگیری:</strong>
+          {{ order.code }}
+      {% endifnotequal %}
+      </p>
+</div>
+{% endblock %}

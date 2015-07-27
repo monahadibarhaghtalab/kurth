@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block main %}
+
+
+             <p id="breadcrumb">شما این جا هستید: <a href="#" title="kurthelectronic.com">چک قیمت محصول</a></p>
+      <div id="maincontent" class="clearfix"><!--TYPO3SEARCH_begin--><h2>چک قیمت </h2><p><strong></strong>
+</p>
+
+
+         <form  role="form" action="/persian_home/write_inf/" method="post" dir="rtl"> {% csrf_token %}
+
+<label style="display: inline-block">قیمت محصول</label>
+         <input dir="ltr" type="text" value= {{ product.price }} readonly id="show_price" />
+         <input type="hidden" value="{{ product.id }}" name = "product_id"/>
+    <div class="form-group">
+        <input  value="تایید قیمت و ارایه مشخصات" type="submit" class="button"  />
+
+    </div>
+    </form>
+
+</div>
+{% endblock %}
