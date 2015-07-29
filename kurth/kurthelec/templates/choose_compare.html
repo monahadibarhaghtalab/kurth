@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+
+{% block main %}
+    {% load staticfiles %}
+      <p id="breadcrumb">شما این جا هستید: <a href="#" title="kurthelectronic.com">انتخاب محصولات</a></p>
+      <div id="maincontent" class="clearfix"><!--TYPO3SEARCH_begin--><h2>ممحصولات مورد نظر را برای مقایسه انتخاب کنید</h2><p><strong></strong>
+</p>
+
+<form action="/persian_home/compare/" mehod = "GET">{% csrf_token %}
+          <p>
+           {% for product in products %}
+<div class="list-item">
+
+
+                        {% load staticfiles %}
+
+                    {% csrf_token %}
+                    <input type="checkbox" value="{{ product.id }}" name ="choice" style="float:right;vertical-align: middle"/>
+                        <img src= "{{product.image.url}}"   width="87" height="74" border="0" alt="" />
+
+                    </a>
+					<p>
+                        <strong>{{ product.name }}</strong>.<br />{{ product.description }}
+<br/>
+    </p>
+
+    </div>
+</p>
+    {% endfor %}
+<input type="hidden" value="{{ current.id }}" name="current_id"/>
+ <input  value="تایید " type="submit" class="button"  />
+
+</form>
+          </div>
+{% endblock %}

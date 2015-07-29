@@ -19,3 +19,9 @@ class Inf(forms.ModelForm):
     class Meta:
         model= Customer
         exclude = ['kurthelec']
+
+
+class ChosenForm(forms.Form):
+    choices = forms.MultipleChoiceField(
+        widget  = forms.CheckboxSelectMultiple,
+    )

@@ -24,15 +24,13 @@
     </p>
     <p>
 
-        <form id="sendPay" action="/persian_home/check_payment/" method="POST"  style="display: inline-block">{% csrf_token %}
-    <a href="javascript:;" onclick="document.getElementById('sendPay').submit();"  style="font-size: 1.8em;  margin-left: 100px" >خرید</a>
-    <input type="hidden" name="product_id" value={{ product.id }}/>
-</form>
 
- <form id="explain" action="/persian_home/explain/" method="POST" style="display: inline-block" >{% csrf_token %}
-    <a href="javascript:;" onclick="document.getElementById('explain').submit();" title="information" style="font-size: 1.8em;  margin-left: 200px" > توضیحات</a>
-    <input type="hidden" name="product_id" value={{ product.id }}/>
-    </form>
+    <a href="/persian_home/check_payment/{{ product.id }}"  style="font-size: 1.2em;  margin-left: 100px" >خرید</a>
+
+
+
+    <a href="/persian_home/explain/{{ product.id }}" title="information" style="font-size: 1.2em;  margin-left: 200px" > توضیحات</a>
+
 
 
 
