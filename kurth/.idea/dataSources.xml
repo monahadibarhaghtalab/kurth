@@ -3,7 +3,8 @@
   <component name="DataSourceManagerImpl" format="xml" hash="332906260">
     <data-source source="LOCAL" name="Django default" uuid="cd25ac51-9dde-4b5b-838f-b3b0d15eb2be">
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:C:\internships\Internships\Web1\kurth\kurth\..\db.sqlite3</jdbc-url>
+      <jdbc-url>jdbc:mysql://127.0.0.1/$PROJECT_DIR$/kurth/../db_mysql</jdbc-url>
+      <user-name>root</user-name>
       <libraries>
         <library>
           <url>file://$USER_HOME$/.PyCharm30/config/jdbc-drivers/xerial-sqlite-license.txt</url>

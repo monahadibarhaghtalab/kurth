@@ -35,9 +35,9 @@ from suds.client import Client
 def make_donate_url(d, site_name):
     url = "http://sandbox.parspal.com/WebService.asmx?wsdl"
     client = Client(url)
-    s = client.service.RequestPayment(MerchantID="100001", Password="abcdeFGHI", Price=d.money,ReturnPath="/perian_home/success")
+    s = client.service.RequestPayment(MerchantID="100001", Password="abcdeFGHI", Price=d.money,ReturnPath="/perian_home/result/" + str(d.id))
     print("s state!!!!%%%%%%%%%%%%%%%%%%%%%%%")
-    print(s.ResultStatus)
+    print(s)
     print(s.PaymentPath)
     if s.ResultStatus == 'Succeed':
         return s.PaymentPath
@@ -45,15 +45,14 @@ def make_donate_url(d, site_name):
 
 
 def verify_payment(d, ref_num):
-    url = "http://merchant.parspal.com/WebService.asmx?wsdl"
+    url = "http://sandbox.parspal.com/WebService.asmx?wsdl"
     client = Client(url)
-    s = client.service.verifyPayment(username, password, code)
+    s = client.service.verifyPayment(MerchantID="100001", Password="abcdeFGHI")
     status = s.ResultStatus
     price = s.PayementedPrice
     d.credit = int(price)
     d.is_success = (status == "Verifyed" or status == "success")
     d.save()
-
 
 
 
@@ -92,11 +91,10 @@ def payment(request):
 
 
 @csrf_exempt
-def payment_result(request):
+def payment_result(request, donate_id):
     if not request.method == "POST":
         raise PermissionDenied
     try:
-        donate_id = request.POST['order_id']
         d = Order.objects.get(id=int(donate_id))
     except Order.DoesNotExist:
         raise Http404
@@ -117,14 +115,23 @@ def payment_result(request):
 
 
 
+
+
 def check_payment(request):
 
     if request.method == "POST":
-        product = Product.objects.get(id=request.POST['product_id'][:-1])
+        product = Product.objects.get(id=request.POST['product_id'])
         context = { 'product': product}
         print(product.price )
         return render(request, 'check_payment.html', context)
     return HttpResponse("Badway!")
+
+
+def compare(request):
+        object_ids = request.GET.getlist('choice')
+        compare_list = Product.objects.filter(id__in=object_ids)
+        current = Product.objects.get(id = request.GET.get('current_id'))
+        return render(request, 'compare.html', {'compare': compare_list, 'current' : current})
 
 
 def write_inf(request):
@@ -176,22 +183,10 @@ def save_inf(request):
 
 
 
-
-
-
-def success(request):
-    if request.method == 'POST':
-        order_id = request.POST['order_id']
-        order = Order.objects.get(id=order_id)
-            # processing the form and doing something
-        rand = random.randint(1,1000000000);
-        order.code = rand
-        return render(request, 'success.html', {'order': order})
-    #else:
-    #    form = Information()
-    #
-    #return render(request, 'contact.html', {'form': form,})
-
+def choose_compare(request, product_id):
+    current = Product.objects.get(id = product_id)
+    products = Product.objects.all().exclude(id = product_id)
+    return render(request, 'choose_compare.html', {'current': current, 'products': products})
 
 
 def follow(request):
@@ -200,11 +195,11 @@ def follow(request):
         order = Order.objects.get(code=code)
         return  render(request, 'follow_up_res.html', {'order': order})
 
-def explain(request):
+def explain(request, product_id):
 
-    product_id = request.POST['product_id'][:-1]
+
     product = Product.objects.get(id=product_id)
-    #print (product.name + "   monaaaaaaaa!!!!!!!!")
+    print (str(product_id) + "   monaaaaaaaa!!!!!!!!")
     context = { 'product': product }
     return render(request, 'explain.html', context)
 

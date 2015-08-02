@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6de8839c-a47c-4a36-aa85-a6bce486fc99" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kurthelec/templates/choose_compare.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kurthelec/templates/compare.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kurthelec/templates/explain.html" afterPath="$PROJECT_DIR$/kurthelec/templates/explain.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kurthelec/forms.py" afterPath="$PROJECT_DIR$/kurthelec/forms.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kurthelec/templates/product.html" afterPath="$PROJECT_DIR$/kurthelec/templates/product.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kurthelec/urls.py" afterPath="$PROJECT_DIR$/kurthelec/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/kurth.iml" afterPath="$PROJECT_DIR$/.idea/kurth.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kurthelec/models.py" afterPath="$PROJECT_DIR$/kurthelec/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kurth/settings.py" afterPath="$PROJECT_DIR$/kurth/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kurthelec/views.py" afterPath="$PROJECT_DIR$/kurthelec/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="kurth.iws" />
@@ -41,13 +41,65 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kurthelec/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="131" column="64" selection-start="3715" selection-end="3715" vertical-scroll-proportion="0.7957958" vertical-offset="1962" max-vertical-offset="3672">
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
+            <state line="131" column="64" selection-start="3715" selection-end="3715" vertical-scroll-proportion="0.0" vertical-offset="1962" max-vertical-offset="3672">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kurth/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="103" column="53" selection-start="2898" selection-end="2898" vertical-scroll-proportion="0.0" vertical-offset="1751" max-vertical-offset="2635">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wsgi.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kurth/wsgi.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manage.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/kurthelec/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="41" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1938">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="forms.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kurthelec/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="23" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="595">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tests.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kurthelec/tests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -64,97 +116,7 @@
       <file leaf-file-name="compare.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kurthelec/templates/compare.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="35" selection-start="759" selection-end="759" vertical-scroll-proportion="0.0" vertical-offset="229" max-vertical-offset="714">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="forms.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kurthelec/forms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="40" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="561">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="explain.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kurthelec/templates/explain.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="57" selection-start="574" selection-end="574" vertical-scroll-proportion="0.0" vertical-offset="16" max-vertical-offset="493">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kurthelec/templates/test.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3366">
-              <folding>
-                <marker date="1437542334000" expanded="true" signature="186:16124" placeholder="..." />
-                <marker date="1437542334000" expanded="true" signature="193:5390" placeholder="..." />
-                <marker date="1437542334000" expanded="true" signature="270:865" placeholder="..." />
-                <marker date="1437542334000" expanded="true" signature="2901:3020" placeholder="..." />
-                <marker date="1437542334000" expanded="true" signature="2981:3000" placeholder="{...}" />
-                <marker date="1437542334000" expanded="true" signature="3615:4213" placeholder="..." />
-                <marker date="1437542334000" expanded="true" signature="3617:3630" placeholder="/*...*/" />
-                <marker date="1437542334000" expanded="true" signature="3631:3667" placeholder="/*...*/" />
-                <marker date="1437542334000" expanded="true" signature="3723:4193" placeholder="{...}" />
-                <marker date="1437542334000" expanded="true" signature="3768:4189" placeholder="{&quot;easing&quot;: 'swing'...}" />
-                <marker date="1437542334000" expanded="true" signature="4197:4204" placeholder="/*...*/" />
-                <marker date="1437542334000" expanded="true" signature="5408:16116" placeholder="..." />
-                <marker date="1437542334000" expanded="true" signature="5431:16104" placeholder="..." />
-                <marker date="1437542334000" expanded="true" signature="5453:7005" placeholder="..." />
-                <marker date="1437542334000" expanded="true" signature="5630:5937" placeholder="..." />
-                <marker date="1437542334000" expanded="true" signature="5635:5929" placeholder="..." />
-                <marker date="1437542334000" expanded="true" signature="5953:6547" placeholder="..." />
-                <marker date="1437542334000" expanded="true" signature="5988:6539" placeholder="..." />
-                <marker date="1437542334000" expanded="true" signature="7047:7183" placeholder="..." />
-                <marker date="1437542334000" expanded="true" signature="7223:9787" placeholder="..." />
-                <marker date="1437542334000" expanded="true" signature="7258:9779" placeholder="..." />
-                <marker date="1437542334000" expanded="true" signature="7290:9770" placeholder="..." />
-                <marker date="1437542334000" expanded="true" signature="7297:7710" placeholder="..." />
-                <marker date="1437542334000" expanded="false" signature="7430:7442" placeholder="..." />
-                <marker date="1437542334000" expanded="true" signature="7717:8065" placeholder="..." />
-                <marker date="1437542334000" expanded="false" signature="7850:7862" placeholder="..." />
-                <marker date="1437542334000" expanded="true" signature="8072:8483" placeholder="..." />
-                <marker date="1437542334000" expanded="false" signature="8205:8217" placeholder="..." />
-                <marker date="1437542334000" expanded="true" signature="8490:8909" placeholder="..." />
-                <marker date="1437542334000" expanded="false" signature="8623:8635" placeholder="..." />
-                <marker date="1437542334000" expanded="true" signature="8916:9315" placeholder="..." />
-                <marker date="1437542334000" expanded="false" signature="9049:9061" placeholder="..." />
-                <marker date="1437542334000" expanded="true" signature="9322:9763" placeholder="..." />
-                <marker date="1437542334000" expanded="false" signature="9455:9467" placeholder="..." />
-                <marker date="1437542334000" expanded="true" signature="9812:15623" placeholder="..." />
-                <marker date="1437542334000" expanded="true" signature="9858:12145" placeholder="..." />
-                <marker date="1437542334000" expanded="true" signature="9902:12082" placeholder="..." />
-                <marker date="1437542334000" expanded="true" signature="10971:12076" placeholder="..." />
-                <marker date="1437542334000" expanded="true" signature="11114:11835" placeholder="..." />
-                <marker date="1437542334000" expanded="true" signature="11122:11325" placeholder="..." />
-                <marker date="1437542334000" expanded="true" signature="11333:11528" placeholder="..." />
-                <marker date="1437542334000" expanded="true" signature="11537:11620" placeholder="..." />
-                <marker date="1437542334000" expanded="true" signature="11651:11827" placeholder="..." />
-                <marker date="1437542334000" expanded="true" signature="11866:12070" placeholder="..." />
-                <marker date="1437542334000" expanded="true" signature="12191:15612" placeholder="..." />
-                <marker date="1437542334000" expanded="true" signature="12255:12851" placeholder="..." />
-                <marker date="1437542334000" expanded="true" signature="12258:12819" placeholder="..." />
-                <marker date="1437542334000" expanded="true" signature="12823:12829" placeholder="..." />
-                <marker date="1437542334000" expanded="false" signature="12877:12989" placeholder="..." />
-                <marker date="1437542334000" expanded="true" signature="13784:15561" placeholder="..." />
-                <marker date="1437542334000" expanded="true" signature="14098:15555" placeholder="..." />
-                <marker date="1437542334000" expanded="true" signature="14857:15244" placeholder="..." />
-                <marker date="1437542334000" expanded="true" signature="15248:15533" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="write_inf.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kurthelec/templates/write_inf.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="18" selection-start="549" selection-end="549" vertical-scroll-proportion="0.0" vertical-offset="118" max-vertical-offset="493">
+            <state line="23" column="35" selection-start="759" selection-end="759" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="714">
               <folding />
             </state>
           </provider>
@@ -163,25 +125,7 @@
       <file leaf-file-name="product.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kurthelec/templates/product.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="113" selection-start="1001" selection-end="1001" vertical-scroll-proportion="0.0" vertical-offset="348" max-vertical-offset="1071">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kurthelec/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="54" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="442">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="check_inf.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kurthelec/templates/check_inf.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="24" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0" vertical-offset="437" max-vertical-offset="1258">
+            <state line="31" column="113" selection-start="1001" selection-end="1001" vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="1071">
               <folding />
             </state>
           </provider>
@@ -205,15 +149,12 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/kurthelec/templates/catalog.html" />
         <option value="$PROJECT_DIR$/kurthelec/templates/check_payment.html" />
         <option value="$PROJECT_DIR$/kurthelec/templates/write_inf.html" />
         <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/static/css/screen.min.1392396104.css" />
-        <option value="$PROJECT_DIR$/kurthelec/models.py" />
         <option value="$PROJECT_DIR$/kurthelec/templates/check_inf.html" />
         <option value="$PROJECT_DIR$/kurthelec/templates/success.html" />
-        <option value="$PROJECT_DIR$/kurthelec/forms.py" />
         <option value="$PROJECT_DIR$/kurth/urls.py" />
         <option value="$PROJECT_DIR$/kurthelec/templates/explain.html" />
         <option value="$PROJECT_DIR$/kurthelec/urls.py" />
@@ -221,6 +162,9 @@
         <option value="$PROJECT_DIR$/kurthelec/templates/product.html" />
         <option value="$PROJECT_DIR$/kurthelec/templates/compare.html" />
         <option value="$PROJECT_DIR$/kurthelec/views.py" />
+        <option value="$PROJECT_DIR$/kurthelec/models.py" />
+        <option value="$PROJECT_DIR$/kurthelec/forms.py" />
+        <option value="$PROJECT_DIR$/kurth/settings.py" />
       </list>
     </option>
   </component>
@@ -275,7 +219,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -432,6 +375,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -741,6 +685,11 @@
       <created>1436428126286</created>
       <updated>1436428126286</updated>
     </task>
+    <task id="LOCAL-00001" summary="before push to heroku">
+      <created>1438153486260</created>
+      <updated>1438153486260</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -764,20 +713,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1296" height="776" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.365105" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.365105" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34015152" sideWeight="0.67972744" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3395462" sideWeight="0.63489497" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1458671" sideWeight="0.63489497" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22528364" sideWeight="0.63489497" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14748785" sideWeight="0.66720515" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24878444" sideWeight="0.63489497" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36949685" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33441034" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33117932" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33117932" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32866043" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -785,6 +734,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CSS Styles" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32879046" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -797,137 +747,41 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="before push to heroku" />
+    <option name="LAST_COMMIT_MESSAGE" value="before push to heroku" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/kurthelec/templates/success.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="23" selection-start="361" selection-end="361" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="425" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kurthelec/templates/contact_us.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="384" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kurth/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="23" selection-start="853" selection-end="853" vertical-scroll-proportion="0.0" vertical-offset="88" max-vertical-offset="476" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kurthelec/templates/check_payment.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kurthelec/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="388" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kurthelec/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="15" selection-start="312" selection-end="323" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1649">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kurthelec/templates/check_inf.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="24" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0" vertical-offset="437" max-vertical-offset="1258">
-          <folding />
-        </state>
+        <state line="10" column="24" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0" vertical-offset="437" max-vertical-offset="1258" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kurthelec/templates/explain.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="57" selection-start="574" selection-end="574" vertical-scroll-proportion="0.0" vertical-offset="16" max-vertical-offset="493">
-          <folding />
-        </state>
+        <state line="17" column="57" selection-start="574" selection-end="574" vertical-scroll-proportion="0.0" vertical-offset="16" max-vertical-offset="493" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kurthelec/templates/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="3366">
-          <folding>
-            <marker date="1437542334000" expanded="true" signature="186:16124" placeholder="..." />
-            <marker date="1437542334000" expanded="true" signature="193:5390" placeholder="..." />
-            <marker date="1437542334000" expanded="true" signature="270:865" placeholder="..." />
-            <marker date="1437542334000" expanded="true" signature="2901:3020" placeholder="..." />
-            <marker date="1437542334000" expanded="true" signature="2981:3000" placeholder="{...}" />
-            <marker date="1437542334000" expanded="true" signature="3615:4213" placeholder="..." />
-            <marker date="1437542334000" expanded="true" signature="3617:3630" placeholder="/*...*/" />
-            <marker date="1437542334000" expanded="true" signature="3631:3667" placeholder="/*...*/" />
-            <marker date="1437542334000" expanded="true" signature="3723:4193" placeholder="{...}" />
-            <marker date="1437542334000" expanded="true" signature="3768:4189" placeholder="{&quot;easing&quot;: 'swing'...}" />
-            <marker date="1437542334000" expanded="true" signature="4197:4204" placeholder="/*...*/" />
-            <marker date="1437542334000" expanded="true" signature="5408:16116" placeholder="..." />
-            <marker date="1437542334000" expanded="true" signature="5431:16104" placeholder="..." />
-            <marker date="1437542334000" expanded="true" signature="5453:7005" placeholder="..." />
-            <marker date="1437542334000" expanded="true" signature="5630:5937" placeholder="..." />
-            <marker date="1437542334000" expanded="true" signature="5635:5929" placeholder="..." />
-            <marker date="1437542334000" expanded="true" signature="5953:6547" placeholder="..." />
-            <marker date="1437542334000" expanded="true" signature="5988:6539" placeholder="..." />
-            <marker date="1437542334000" expanded="true" signature="7047:7183" placeholder="..." />
-            <marker date="1437542334000" expanded="true" signature="7223:9787" placeholder="..." />
-            <marker date="1437542334000" expanded="true" signature="7258:9779" placeholder="..." />
-            <marker date="1437542334000" expanded="true" signature="7290:9770" placeholder="..." />
-            <marker date="1437542334000" expanded="true" signature="7297:7710" placeholder="..." />
-            <marker date="1437542334000" expanded="false" signature="7430:7442" placeholder="..." />
-            <marker date="1437542334000" expanded="true" signature="7717:8065" placeholder="..." />
-            <marker date="1437542334000" expanded="false" signature="7850:7862" placeholder="..." />
-            <marker date="1437542334000" expanded="true" signature="8072:8483" placeholder="..." />
-            <marker date="1437542334000" expanded="false" signature="8205:8217" placeholder="..." />
-            <marker date="1437542334000" expanded="true" signature="8490:8909" placeholder="..." />
-            <marker date="1437542334000" expanded="false" signature="8623:8635" placeholder="..." />
-            <marker date="1437542334000" expanded="true" signature="8916:9315" placeholder="..." />
-            <marker date="1437542334000" expanded="false" signature="9049:9061" placeholder="..." />
-            <marker date="1437542334000" expanded="true" signature="9322:9763" placeholder="..." />
-            <marker date="1437542334000" expanded="false" signature="9455:9467" placeholder="..." />
-            <marker date="1437542334000" expanded="true" signature="9812:15623" placeholder="..." />
-            <marker date="1437542334000" expanded="true" signature="9858:12145" placeholder="..." />
-            <marker date="1437542334000" expanded="true" signature="9902:12082" placeholder="..." />
-            <marker date="1437542334000" expanded="true" signature="10971:12076" placeholder="..." />
-            <marker date="1437542334000" expanded="true" signature="11114:11835" placeholder="..." />
-            <marker date="1437542334000" expanded="true" signature="11122:11325" placeholder="..." />
-            <marker date="1437542334000" expanded="true" signature="11333:11528" placeholder="..." />
-            <marker date="1437542334000" expanded="true" signature="11537:11620" placeholder="..." />
-            <marker date="1437542334000" expanded="true" signature="11651:11827" placeholder="..." />
-            <marker date="1437542334000" expanded="true" signature="11866:12070" placeholder="..." />
-            <marker date="1437542334000" expanded="true" signature="12191:15612" placeholder="..." />
-            <marker date="1437542334000" expanded="true" signature="12255:12851" placeholder="..." />
-            <marker date="1437542334000" expanded="true" signature="12258:12819" placeholder="..." />
-            <marker date="1437542334000" expanded="true" signature="12823:12829" placeholder="..." />
-            <marker date="1437542334000" expanded="false" signature="12877:12989" placeholder="..." />
-            <marker date="1437542334000" expanded="true" signature="13784:15561" placeholder="..." />
-            <marker date="1437542334000" expanded="true" signature="14098:15555" placeholder="..." />
-            <marker date="1437542334000" expanded="true" signature="14857:15244" placeholder="..." />
-            <marker date="1437542334000" expanded="true" signature="15248:15533" placeholder="..." />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="3366" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kurthelec/templates/write_inf.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="18" selection-start="549" selection-end="549" vertical-scroll-proportion="0.0" vertical-offset="118" max-vertical-offset="493">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kurthelec/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="40" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="527">
-          <folding />
-        </state>
+        <state line="15" column="18" selection-start="549" selection-end="549" vertical-scroll-proportion="0.0" vertical-offset="118" max-vertical-offset="493" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kurthelec/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="54" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="442">
-          <folding />
-        </state>
+        <state line="6" column="54" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="442" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kurthelec/templates/product.html">
@@ -953,10 +807,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kurthelec/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="131" column="64" selection-start="3715" selection-end="3715" vertical-scroll-proportion="0.7957958" vertical-offset="1962" max-vertical-offset="3672">
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
+        <state line="131" column="64" selection-start="3715" selection-end="3715" vertical-scroll-proportion="0.0" vertical-offset="1962" max-vertical-offset="3672">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kurthelec/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kurth/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="312">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kurthelec/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="23" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kurth/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="103" column="53" selection-start="2898" selection-end="2898" vertical-scroll-proportion="0.0" vertical-offset="1751" max-vertical-offset="2635">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kurthelec/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="41" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1938">
+          <folding />
         </state>
       </provider>
     </entry>

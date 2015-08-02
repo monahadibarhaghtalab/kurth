@@ -86,18 +86,28 @@ WSGI_APPLICATION = 'kurth.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/1.8/ref/settings/#databases
-
+DEBUG = True
+#if 'DATABASE_URL' in os.environ:
+##    DEBUG = False
+#DATABASES = {
+#    'default': {
+#    'ENGINE': 'django.db.backends.sqlite3',
+#    'NAME': os.path.join(PROJECT_PATH, 'db.sqlite3'),
+#    }
+#}
+#
+#if 'DATABASE_URL' in os.environ:
+#    import dj_database_url
+#    DATABASES['default'] = dj_database_url.config()
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(PROJECT_PATH, 'db.sqlite3'),
+        'NAME': os.path.join(PROJECT_PATH,'db_mysql'),
+        'ENGINE': 'django.db.backends.mysql',
+        'USER': 'root',
     }
 }
-
-
 # Internationalization
 # https://docs.djangoproject.com/en/1.8/topics/i18n/
-
 LANGUAGE_CODE = 'en-us'
 
 TIME_ZONE = 'UTC'
