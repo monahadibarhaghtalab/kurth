@@ -1,29 +1,34 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
+import os
 from django.db import models
 import datetime
 # Create your models here.
 from django.forms import forms
 
-import MySQLdb
-
-host = "localhost"
-user = "root"
-dbname = "db_mysql"
-
-db = MySQLdb.connect(host=host, user=user, passwd="", db=dbname)
-cursor = db.cursor()
-
-cursor.execute("ALTER DATABASE `%s` CHARACTER SET 'utf8' COLLATE 'utf8_unicode_ci'" % dbname)
-
-sql = "SELECT DISTINCT(table_name) FROM information_schema.columns WHERE table_schema = '%s'" % dbname
-cursor.execute(sql)
-
-results = cursor.fetchall()
-for row in results:
-    sql = "ALTER TABLE `%s` convert to character set DEFAULT COLLATE DEFAULT" % (row[0])
-    cursor.execute(sql)
-db.close()
+#import MySQLdb
+#from kurth.settings import PROJECT_PATH
+#
+#host = "localhost"
+#user = "root"
+#dbname = 'kurth_db'
+#
+#db = MySQLdb.connect(host=host, user=user, passwd="", db=dbname)
+#cursor = db.cursor()
+##print("hiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii")
+##sql = 'CREATE DATABASE ' + dbname
+##cursor.execute(sql)
+#
+#cursor.execute("ALTER DATABASE `%s` CHARACTER SET 'utf8' COLLATE 'utf8_unicode_ci'" % dbname)
+#
+#sql = "SELECT DISTINCT(table_name) FROM information_schema.columns WHERE table_schema = '%s'" % dbname
+#cursor.execute(sql)
+#
+#results = cursor.fetchall()
+#for row in results:
+#    sql = "ALTER TABLE `%s` convert to character set DEFAULT COLLATE DEFAULT" % (row[0])
+#    cursor.execute(sql)
+#db.close()
 
 
 class Product(models.Model):
@@ -41,11 +46,11 @@ class Product(models.Model):
     state = models.BooleanField(verbose_name="وضعیت", default=False)
     number = models.IntegerField(verbose_name="تعداد موجودی", default=0)
 
-    def __unicode__(self):
-        return str(self.name)
+    #def __unicode__(self):
+    #    return str(self.name)
 
-    def __str__(self):
-        return str(self.name)
+    def __str__(self, charset='utf-8'):
+        return str(self.name.encode(charset))
 
     class Meta:
         verbose_name = 'محصول'
@@ -62,8 +67,8 @@ class Customer(models.Model):
     last_name = models.CharField(verbose_name="نام خانوادگی", max_length=255)
     cell_phone = models.IntegerField(verbose_name="شماره تلفن همراه", blank=False)
 
-    def __str__(self):
-        return str(self.email)
+    def __str__(self, charset='utf-8'):
+        return str(self.email.encode(charset))
 
     class Meta:
         verbose_name = 'خریدار'
@@ -77,12 +82,12 @@ class Order(models.Model):
     state = models.PositiveIntegerField('وضعیت ارسال', default=0)
     state_pay = models.PositiveIntegerField('وضعیت پرداخت', default=0)
     sent_date = models.DateField('تاریخ ارسال', null=True)
+    #
+    #def __unicode__(self):
+    #    return str(self.product.name)
 
-    def __unicode__(self):
-        return str(self.product.name)
-
-    def __str__(self):
-        return str(self.product.name)
+    def __str__(self, charset='utf-8'):
+        return str(self.product.name.encode(charset))
 
     class Meta:
         verbose_name = 'سفارش'
@@ -96,12 +101,12 @@ class Payment(models.Model):
     user = models.CharField(verbose_name='پرداخت کننده', max_length=255)
     name = models.CharField(verbose_name='نام محصول', max_length=255)
 
+    #
+    #def __unicode__(self):
+    #    return str(self.date)
 
-    def __unicode__(self):
-        return str(self.date)
-
-    def __str__(self):
-        return str(self.date)
+    def __str__(self, charset='utf-8'):
+        return str(self.name.encode(charset))
 
     class Meta:
         verbose_name = "تراکنش"

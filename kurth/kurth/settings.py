@@ -16,6 +16,7 @@ import os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 import os
+
 SETTINGS_DIR = os.path.dirname(__file__)
 
 PROJECT_PATH = os.path.join(SETTINGS_DIR, os.pardir)
@@ -52,10 +53,10 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
-    'django.contrib.auth.middleware.SessionAuthenticationMiddleware',
+    # 'django.contrib.auth.middleware.SessionAuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'django.middleware.security.SecurityMiddleware',
+    #'django.middleware.security.SecurityMiddleware',
 )
 
 ROOT_URLCONF = 'kurth.urls'
@@ -63,7 +64,7 @@ ROOT_URLCONF = 'kurth.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'kurth/../templates')],
+        'DIRS': [os.path.join(PROJECT_PATH, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -77,10 +78,6 @@ TEMPLATES = [
     },
 ]
 
-
-
-
-
 WSGI_APPLICATION = 'kurth.wsgi.application'
 
 
@@ -89,23 +86,24 @@ WSGI_APPLICATION = 'kurth.wsgi.application'
 DEBUG = True
 #if 'DATABASE_URL' in os.environ:
 ##    DEBUG = False
-#DATABASES = {
-#    'default': {
-#    'ENGINE': 'django.db.backends.sqlite3',
-#    'NAME': os.path.join(PROJECT_PATH, 'db.sqlite3'),
-#    }
-#}
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(PROJECT_PATH, 'db.sqlite3'),
+    }
+}
 #
 #if 'DATABASE_URL' in os.environ:
 #    import dj_database_url
 #    DATABASES['default'] = dj_database_url.config()
-DATABASES = {
-    'default': {
-        'NAME': os.path.join(PROJECT_PATH,'db_mysql'),
-        'ENGINE': 'django.db.backends.mysql',
-        'USER': 'root',
-    }
-}
+#DATABASES = {
+#    'default': {
+#        'NAME': 'kurth_db',
+#        'ENGINE': 'django.db.backends.mysql',
+#        'USER': 'root',
+#        'HOST': 'localhost',
+#    }
+#}
 # Internationalization
 # https://docs.djangoproject.com/en/1.8/topics/i18n/
 LANGUAGE_CODE = 'en-us'
@@ -124,18 +122,19 @@ USE_TZ = True
 
 
 
-STATIC_PATH = os.path.join(PROJECT_PATH,'static')
-
+STATIC_PATH = os.path.join(PROJECT_PATH, 'static/')
+#
 STATIC_URL = '/static/' # You may find this is already defined as such.
-
+#
 STATICFILES_DIRS = (
     STATIC_PATH,
 )
 
 MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(PROJECT_PATH, 'media') # Absolute path to the media directory
+MEDIA_ROOT = os.path.join(PROJECT_PATH, 'media/')
+# Absolute path to the media directory
 
-
+#STATIC_ROOT = os.path.join(PROJECT_PATH, "static/")
 
 #STATIC_ROOT = ''
 ##
