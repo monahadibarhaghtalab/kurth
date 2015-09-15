@@ -8,11 +8,10 @@
 </p>
 
 
-         <form  role="form" action="/persian_home/write_inf/" method="post" dir="rtl"> {% csrf_token %}
+         <form  role="form" action="/persian_home/write_inf/{{ product.id }}" method="post" dir="rtl"> {% csrf_token %}
 
-<label style="display: inline-block">قیمت محصول</label>
+<label style="display: inline-block">قیمت محصول (به تومان)</label>
          <input dir="ltr" type="text" value= {{ product.price }} readonly id="show_price" />
-         <input type="hidden" value="{{ product.id }}" name = "product_id"/>
     <div class="form-group">
         <input  value="تایید قیمت و ارایه مشخصات" type="submit" class="button"  />
 

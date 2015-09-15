@@ -9,11 +9,11 @@ from django.forms import forms
 #import MySQLdb
 #from kurth.settings import PROJECT_PATH
 #
-#host = "localhost"
+#host = "95.211.225.54"
 #user = "root"
 #dbname = 'kurth_db'
 #
-#db = MySQLdb.connect(host=host, user=user, passwd="", db=dbname)
+#db = MySQLdb.connect(host=host, user=user, passwd="v1hleRspZYN9xF", db=dbname)
 #cursor = db.cursor()
 ##print("hiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii")
 ##sql = 'CREATE DATABASE ' + dbname
@@ -29,6 +29,27 @@ from django.forms import forms
 #    sql = "ALTER TABLE `%s` convert to character set DEFAULT COLLATE DEFAULT" % (row[0])
 #    cursor.execute(sql)
 #db.close()
+
+
+
+
+
+purchaseState = (
+    ('success', 'پرداخت انجام شد'),
+    ('InvalidRef', 'شماره رسید قابل قبول نیست'),
+    ('Verifyed', 'قبلا پرداخت شده است'),
+    ('NotMatchMoney', 'مبلغ واریزی با مبلغ درخواستی یکسان نمی باشد'),
+    ('Ready', 'هیچ عملیاتی انجام نشده است')
+
+)
+
+sentState = (
+    ('sent', 'فرستاده شده است'),
+    ('pending', 'در حال بررسی است'),
+    ('notavailable', 'کالا مورد نظر در انبار وجود ندارد')
+
+
+)
 
 
 class Product(models.Model):
@@ -64,7 +85,7 @@ class Customer(models.Model):
     address = models.TextField(verbose_name=" آدرس")
 
     first_name = models.CharField(verbose_name="نام", max_length=255)
-    last_name = models.CharField(verbose_name="نام خانوادگی", max_length=255)
+    last_name = models.CharField(verbose_name="نام خانوادگی", max_length=255,  error_messages={'required': ('وارد کردن نام الزامی است')})
     cell_phone = models.IntegerField(verbose_name="شماره تلفن همراه", blank=False)
 
     def __str__(self, charset='utf-8'):
@@ -79,9 +100,10 @@ class Order(models.Model):
     product = models.ForeignKey(Product, verbose_name="محصول")
     code = models.PositiveIntegerField("کد پیگیری", default=0)
     customer = models.ForeignKey(Customer, verbose_name='خریدار')
-    state = models.PositiveIntegerField('وضعیت ارسال', default=0)
-    state_pay = models.PositiveIntegerField('وضعیت پرداخت', default=0)
+    state = models.CharField(max_length=50, verbose_name='وضعیت ارسال', choices=sentState)
+    state_pay = models.CharField(max_length=50, verbose_name='وضعیت پرداخت', choices=purchaseState)
     sent_date = models.DateField('تاریخ ارسال', null=True)
+    money_taken = models.PositiveIntegerField(verbose_name="هزینه نهایی ", default=0)
     #
     #def __unicode__(self):
     #    return str(self.product.name)

@@ -10,22 +10,21 @@
 </p>
 
       <p><strong>
-    {% ifequal order.state 1 %}
+    {% ifequal order.state 'sent' %}
       در تاریخ
         {{ order.sent_date }}
         ارسال شده است.
     {% endifequal %}
 
- {% ifequal order.state 2 %}
+ {% ifequal order.state 'pending' %}
 سفارش ثبت شده است.
     {% endifequal %}
 
- {% ifequal order.state 3 %}
+ {% ifequal order.state 'unavailable' %}
 کالا ناموجود لطفا با شماره های ... تماس حاصل فرمایید.
     {% endifequal %}
       </strong>
 <br/>
-          پس از تایید مدیر کالای مورد نظر برای شما ارسال می شود
-      <br/>
+</div>
 
 {% endblock %}

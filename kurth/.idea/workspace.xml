@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6de8839c-a47c-4a36-aa85-a6bce486fc99" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kurthelec/templates/base.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/UnderConstruction.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/arrow.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/bg_heading_mainc_ks.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kurthelec/templates/check_payment.html" afterPath="$PROJECT_DIR$/kurthelec/templates/check_payment.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kurthelec/templates/follow_up_res.html" afterPath="$PROJECT_DIR$/kurthelec/templates/follow_up_res.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kurthelec/models.py" afterPath="$PROJECT_DIR$/kurthelec/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kurth/settings.py" afterPath="$PROJECT_DIR$/kurth/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kurthelec/templates/success.html" afterPath="$PROJECT_DIR$/kurthelec/templates/success.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kurth/urls.py" afterPath="$PROJECT_DIR$/kurth/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kurthelec/urls.py" afterPath="$PROJECT_DIR$/kurthelec/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kurthelec/views.py" afterPath="$PROJECT_DIR$/kurthelec/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kurthelec/templates/write_inf.html" afterPath="$PROJECT_DIR$/kurthelec/templates/write_inf.html" />
     </list>
     <ignored path="kurth.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -21,7 +23,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/kurth$manage.coverage" NAME="manage Coverage Results" MODIFIED="1436518762981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/kurth$manage.coverage" NAME="manage Coverage Results" MODIFIED="1439888411965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -40,82 +42,75 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/kurthelec/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="78" selection-start="1628" selection-end="1628" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="3604">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kurth/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="90" column="45" selection-start="2625" selection-end="2625" vertical-scroll-proportion="-7.08" vertical-offset="1353" max-vertical-offset="2618">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/kurth/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="20" selection-start="843" selection-end="843" vertical-scroll-proportion="0.7223796" vertical-offset="153" max-vertical-offset="646">
+            <state line="113" column="45" selection-start="3429" selection-end="3429" vertical-scroll-proportion="2.6005666" vertical-offset="1003" max-vertical-offset="3706">
               <folding>
-                <element signature="e#614#655#0" expanded="true" />
+                <element signature="e#0#13#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Persian_first.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kurthelec/templates/Persian_first.html">
+      <file leaf-file-name="test.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kurthelec/templates/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1445">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3366">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wsgi.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kurth/wsgi.py">
+      <file leaf-file-name="success.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kurthelec/templates/success.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="5" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0" vertical-offset="2" max-vertical-offset="374">
+            <state line="9" column="43" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="425">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="manage.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manage.py">
+      <file leaf-file-name="check_payment.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kurthelec/templates/check_payment.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+            <state line="14" column="28" selection-start="581" selection-end="581" vertical-scroll-proportion="0.0" vertical-offset="9" max-vertical-offset="459">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kurthelec/urls.py">
+      <file leaf-file-name="write_inf.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kurthelec/templates/write_inf.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="26" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="442">
+            <state line="16" column="21" selection-start="587" selection-end="587" vertical-scroll-proportion="0.0" vertical-offset="11" max-vertical-offset="476">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="icon_success.gif" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/admin/img/icon_success.gif">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="forms.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kurthelec/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="107" selection-start="261" selection-end="321" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="595">
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/admin/css/login.css">
+      <file leaf-file-name="follow_up.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kurthelec/templates/follow_up.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1122">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="442">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="follow_up_res.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kurthelec/templates/follow_up_res.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="6" selection-start="645" selection-end="645" vertical-scroll-proportion="0.0" vertical-offset="121" max-vertical-offset="595">
               <folding />
             </state>
           </provider>
@@ -124,7 +119,16 @@
       <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kurthelec/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="35" selection-start="516" selection-end="516" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="2040">
+            <state line="48" column="55" selection-start="1306" selection-end="1306" vertical-scroll-proportion="0.0" vertical-offset="816" max-vertical-offset="2414">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="submit_information.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kurthelec/templates/submit_information.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="527">
               <folding />
             </state>
           </provider>
@@ -148,30 +152,28 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/kurthelec/templates/write_inf.html" />
-        <option value="$PROJECT_DIR$/templates/base.html" />
-        <option value="$PROJECT_DIR$/static/css/screen.min.1392396104.css" />
         <option value="$PROJECT_DIR$/kurthelec/templates/check_inf.html" />
-        <option value="$PROJECT_DIR$/kurthelec/templates/success.html" />
         <option value="$PROJECT_DIR$/kurthelec/templates/explain.html" />
         <option value="$PROJECT_DIR$/kurthelec/templates/choose_compare.html" />
         <option value="$PROJECT_DIR$/kurthelec/templates/product.html" />
         <option value="$PROJECT_DIR$/kurthelec/templates/compare.html" />
         <option value="$PROJECT_DIR$/kurthelec/forms.py" />
         <option value="$PROJECT_DIR$/kurth/wsgi.py" />
-        <option value="$PROJECT_DIR$/kurthelec/models.py" />
-        <option value="$PROJECT_DIR$/kurth/settings.py" />
-        <option value="$PROJECT_DIR$/kurthelec/urls.py" />
-        <option value="$PROJECT_DIR$/kurthelec/views.py" />
         <option value="$PROJECT_DIR$/kurth/urls.py" />
+        <option value="$PROJECT_DIR$/kurth/settings.py" />
+        <option value="$PROJECT_DIR$/kurthelec/templates/check_payment.html" />
+        <option value="$PROJECT_DIR$/kurthelec/templates/write_inf.html" />
+        <option value="$PROJECT_DIR$/kurthelec/urls.py" />
+        <option value="$PROJECT_DIR$/kurthelec/templates/success.html" />
+        <option value="$PROJECT_DIR$/kurthelec/templates/follow_up_res.html" />
+        <option value="$PROJECT_DIR$/kurthelec/models.py" />
+        <option value="$PROJECT_DIR$/kurthelec/views.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1296" />
-    <option name="height" value="776" />
+    <option name="width" value="1280" />
+    <option name="height" value="760" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -246,29 +248,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kurth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kurth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aspnet_client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="system_web" />
+              <option name="myItemId" value="kurthelec" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -283,6 +263,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="kurthelec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -308,7 +292,7 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
-    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PythonSdkConfigurable" />
     <property name="recentsLimit" value="5" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="last_opened_file_path" value="C:/Python26/python.exe" />
@@ -317,11 +301,11 @@
     <property name="Database.TableEditor.Splitter" value="0.9" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
-    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PublishConfig" serverName="kurth" serverId="853add5c-104d-43c3-bda4-d8de3eab5111" showEqualInSync="true">
     <servers>
@@ -371,8 +355,10 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
       <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
       <RunnerSettings RunnerId="PythonCover" />
       <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
       <ConfigurationWrapper RunnerId="PythonCover" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
@@ -461,7 +447,27 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="kurth" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
@@ -487,27 +493,7 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="kurth" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
-      <option name="host" value="" />
-      <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
-      <option name="runTestServer" value="false" />
-      <option name="runNoReload" value="false" />
-      <option name="useCustomRunCommand" value="false" />
-      <option name="customRunCommand" value="" />
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -625,7 +611,11 @@
       <created>1438512329512</created>
       <updated>1438512329512</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="change sqlite to mysql complete">
+      <created>1439887930463</created>
+      <updated>1439887930463</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -649,26 +639,26 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="776" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="760" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3279483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35379645" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3395462" sideWeight="0.63489497" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14748785" sideWeight="0.66720515" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35379645" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33665007" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3395462" sideWeight="0.63489497" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2949757" sideWeight="0.6462036" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14748785" sideWeight="0.66720515" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3366174" sideWeight="0.6633499" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3990307" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3990307" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33117932" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32504147" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CSS Styles" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32879046" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -689,105 +679,111 @@
     <option name="LAST_COMMIT_MESSAGE" value="change sqlite to mysql complete" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/kurthelec/templates/choose_compare.html">
+    <entry file="file://$PROJECT_DIR$/kurth/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="81" selection-start="637" selection-end="643" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="697" />
+        <state line="93" column="1" selection-start="2549" selection-end="2693" vertical-scroll-proportion="0.0" vertical-offset="1479" max-vertical-offset="2618">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kurthelec/templates/compare.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="35" selection-start="759" selection-end="759" vertical-scroll-proportion="0.0" vertical-offset="229" max-vertical-offset="714" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kurthelec/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kurthelec/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="23" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datadump.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="356" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kurthelec/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2108" />
+        <state line="23" column="35" selection-start="752" selection-end="759" vertical-scroll-proportion="0.0" vertical-offset="296" max-vertical-offset="714" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kurthelec/templates/Persian_first.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1445">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1445" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kurthelec/templates/product.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="57" selection-start="810" selection-end="826" vertical-scroll-proportion="-10.115385" vertical-offset="196" max-vertical-offset="1071" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kurthelec/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="45" selection-start="923" selection-end="923" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="425" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kurthelec/templates/check_inf.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="2.9615386" vertical-offset="77" max-vertical-offset="1258" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kurthelec/templates/check_payment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="28" selection-start="581" selection-end="581" vertical-scroll-proportion="0.0" vertical-offset="9" max-vertical-offset="459">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kurthelec/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="107" selection-start="261" selection-end="321" vertical-scroll-proportion="0.0" vertical-offset="70" max-vertical-offset="561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kurthelec/templates/submit_information.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="527">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kurthelec/templates/write_inf.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="21" selection-start="587" selection-end="587" vertical-scroll-proportion="0.0" vertical-offset="11" max-vertical-offset="476">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kurthelec/templates/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3366">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kurthelec/templates/success.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="43" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kurthelec/templates/follow_up.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="442">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kurthelec/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="35" selection-start="516" selection-end="516" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="2006">
+        <state line="48" column="55" selection-start="1306" selection-end="1306" vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="2380">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
+    <entry file="file://$PROJECT_DIR$/kurthelec/templates/follow_up_res.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="312">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kurthelec/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="26" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/admin/img/icon_success.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/admin/css/login.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1122">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kurth/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="5" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0" vertical-offset="2" max-vertical-offset="374">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kurth/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="45" selection-start="2625" selection-end="2625" vertical-scroll-proportion="-7.08" vertical-offset="1353" max-vertical-offset="2618">
+        <state line="27" column="6" selection-start="645" selection-end="645" vertical-scroll-proportion="0.0" vertical-offset="121" max-vertical-offset="595">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kurthelec/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="78" selection-start="1628" selection-end="1628" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="3604">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kurth/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="20" selection-start="843" selection-end="843" vertical-scroll-proportion="0.7223796" vertical-offset="153" max-vertical-offset="646">
+        <state line="113" column="45" selection-start="3429" selection-end="3429" vertical-scroll-proportion="2.6005666" vertical-offset="1003" max-vertical-offset="3706">
           <folding>
-            <element signature="e#614#655#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>

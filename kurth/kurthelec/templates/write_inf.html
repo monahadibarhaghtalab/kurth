@@ -8,14 +8,13 @@
 </p>
 
 
-         <form  role="form" action="/persian_home/save_inf/" method="post" dir="rtl"> {% csrf_token %}
+         <form  role="form" action="/persian_home/save_inf/{{ product.id }}" method="post" dir="rtl"> {% csrf_token %}
         {% for field in form %}
             <div class="fieldWrapper">
                 {{ field.label_tag }} {{ field }}
                 {{ field.errors }}
             </div>
         {%  endfor %}
-        <input type="hidden" value="{{ product.id }}" name="product_id"/>
          <input  value="تایید اطلاعات" type="submit" class="button"  />
 
     </form>

@@ -8,13 +8,13 @@
 </p>
 
       <p><strong>نتیجه پرداخت شما:</strong>
-      {{ order.state }}
+      {{ order.state_pay }}
 </p>
  <p>
-      {% ifnotequal code 0 %}
+     {% if order.code != 0  %}
        <strong>کد پیگیری:</strong>
           {{ order.code }}
-      {% endifnotequal %}
+     {% endif %}
       </p>
 </div>
 {% endblock %}

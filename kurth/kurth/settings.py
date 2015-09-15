@@ -101,7 +101,7 @@ DATABASES = {
 #        'NAME': 'kurth_db',
 #        'ENGINE': 'django.db.backends.mysql',
 #        'USER': 'root',
-#        'HOST': 'localhost',
+#        'HOST': '95.211.225.54',
 #    }
 #}
 # Internationalization
